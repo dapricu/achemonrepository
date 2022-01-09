@@ -17,56 +17,9 @@ body {
   background-color: darkgrey;
 }
 
-header {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range.jpg)
-    no-repeat;
-  padding-top: 61.93333333%;
-  background-size: cover;
-  font-family: "Sucrose Bold Two";
-}
-
-.title {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 45.8%;
-}
-
-header h1 {
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  font-size: 12vw;
-  line-height: 0.8;
-  margin-top: 0;
-  text-align: center;
-}
-
-.opensea {
-  width:400px; 
-  border-radius:5px; 
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-  position:absolute;
-  top: 92rem;
-  left: 10rem;
-  font-size: 2vw;
-  line-height: 0.8;
-  margin-top: 0;
-  text-align: center;
-}
-
-
-header h1 span {
-  display: block;
-  font-size: 8.75vw;
-}
-
 main {
   background: #fff;
   position: relative;
   border: 1px solid #fff;
-  font-family: "IM Fell French Canon Pro";
-  font-size: 1.4rem;
-  line-height: 1.6;
 }
 

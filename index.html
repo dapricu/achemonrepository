@@ -9,7 +9,13 @@
 	<link rel="stylesheet" href="button.css">
 	<link rel="stylesheet" href="button.css">
 	<link rel="stylesheet" href="footer.css">
-	<link rel="stylesheet" href="loadertriangle.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono">
+	<link rel="stylesheet" href="glitch.css">
+	<link rel="stylesheet" href="scrolltotop.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
 
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
@@ -17,10 +23,16 @@
 
 <div class="wrapper">
 	<div class="wrap">
-		<header>
+		<!-- <header>
 			<h1>ALCHE <span></span>PEDIA</h1>
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range-front.png" class="title"/>
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/mountain-range-front.png" class="title" />
+		</header> -->
+		<header class="header thetop">
+			<h1 class="glitched">ALCHEPEDIA</h1>
+			<a href="https://alchemon.net/index.html"><img style="width: 10%; padding-bottom: 2vh; margin-left: auto; margin-right: auto; display: block;"
+				src="alchemon_logo.png"></a>
 		</header>
+
 		<main>
 			<br><br>
 
@@ -34,9 +46,19 @@
 			<br><br>
 
 			<section class="cards">
-				<div class="filterDiv common card alch1 animated"></div>
-				<div class="filterDiv un card alch2 animated"></div>
-				<div class="filterDiv rare card alch3 animated"></div>
+				<a class="filterDiv common card alch1 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306180273" target="_blank"> </a>
+				<a class="filterDiv un card alch2 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306181364" target="_blank"> </a>
+				<a class="filterDiv rare card alch3 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306729637" target="_blank"> </a>
+				<a class="filterDiv common card alch4 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306183859" target="_blank"> </a>
+				<a class="filterDiv un card alch5 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306184765" target="_blank"> </a>
+				<a class="filterDiv rare card alch6 animated"
+					href="https://www.randgallery.com/algo-collection/?address=306186552" target="_blank"> </a>
+
 				<!-- <div class="filterDiv 8000+ card k2 animated"></div>
 				<div class="filterDiv 8000+ card kangchenjunga animated"></div>
 				<div class="filterDiv 8000+ card lhotse animated"></div>
@@ -68,11 +90,19 @@
 	</div>
 </div>
 
+<a id="scroller"></a>
+
 <footer class="footer">
 	</div>
-		<nav>
+	<nav>
 		<ul>
-			<img style = "width: 20%; float: right;" src = "alchemon_logo.png"> 
+			<p style="padding-left: 2vw; text-align: left; width: 50%; font-size: smaller !important; font: inherit; float: left; font-family: JetBrains Mono;"> If you have suggestions for any improvements, or find any mistakes, please contact me on Discord at
+				@Shark#5368. This tool was
+				developed in my free time, feel free to drop some change into my ALGO wallet:<br><br>
+				NXQIU4EHBA4XY2B5D23TVQA7WV2MOODRHPMQR2EX3GNEWFW5C5UKMUQPBE
+			</p>
+			<a href="https://alchemon.net/index.html"><img style="width: 20%; float: right; padding-bottom: 2vh;"
+					src="alchemon_logo.png"></a>
 		</ul>
 	</nav>
 </footer>
@@ -81,6 +111,8 @@
 <script src="effect.js"></script>
 <script src="filtering.js"></script>
 <script src="footeranimation.js"></script>
+<script src="glitch.js"></script>
+<script src="scrolltotop.js"></script>
 
 
 </html>

@@ -6,7 +6,10 @@
 	--back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
 	--alch1front: url(cards/1.png);  
 	--alch2front: url(cards/2.png);
-	--alch3front: url(cards/3.png);  }
+	--alch3front: url(cards/3.png);
+	--alch4front: url(cards/4.png);
+	--alch5front: url(cards/5.png);
+	--alch6front: url(cards/6.png);  }
 
   
   .card {
@@ -57,6 +60,25 @@
 	--color2: var(--alch1b);
 	--front: var(--alch3front);
   }
+
+  .card.alch4 {
+	--color1: var(--alch1a);
+	--color2: var(--alch1b);
+	--front: var(--alch4front);
+  }
+
+  .card.alch5 {
+	--color1: var(--alch1a);
+	--color2: var(--alch1b);
+	--front: var(--alch5front);
+  }
+
+  .card.alch6 {
+	--color1: var(--alch1a);
+	--color2: var(--alch1b);
+	--front: var(--alch6front);
+  }
+
 
   
   /* .card.kangchenjunga {
