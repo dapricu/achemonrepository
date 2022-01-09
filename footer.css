@@ -73,11 +73,11 @@ footer nav ul li {
   border-radius: var(--text-radius);
 }
 
-@media (max-width: 728px) {
+/* @media (max-width: 728px) {
   .wrapper {
     padding: 50px 10px 100px 10px !important;
   }
-}
+} */
 
 .wrapper {
   transform-origin: center bottom 0px;
@@ -96,7 +96,7 @@ body.tight .wrapper {
   max-width: 1440px;
   margin: 0px auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 50;
 }
 
 @keyframes bounce {
@@ -136,4 +136,23 @@ body.tight .wrapper {
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 50px solid #ffd000;
+}
+
+.footertext {
+  padding-left: 2vw; 
+  text-align: left; 
+  width: 50%; 
+  font-size: smaller !important; 
+  font: inherit; 
+  float: left; 
+  font-family: JetBrains Mono; 
+  overflow-wrap: anywhere;
+}
+
+@media screen and (max-width: 900px) {
+  .footertext {
+    width: 100% !important;
+    padding-left: 4vw !important;
+    padding-top: 4vh !important;
+  }
 }

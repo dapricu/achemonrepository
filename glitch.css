@@ -5,6 +5,7 @@
   body {
 	font-family: "Raleway", sans-serif;
 	background: #f9f8f8;
+	width: 100%;
   }  
     
   header.header {
@@ -16,6 +17,7 @@
 
   header.header h1 {
 	font-size: 9rem;
+	font-size: 12vw;
 	color: black;
 	text-align: center;
 	margin-top: 0;
