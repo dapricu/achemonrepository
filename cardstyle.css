@@ -9,7 +9,10 @@
 	--alch3front: url(cards/3.png);
 	--alch4front: url(cards/4.png);
 	--alch5front: url(cards/5.png);
-	--alch6front: url(cards/6.png);  }
+	--alch6front: url(cards/6.png);
+	--alch7front: url(cards/7.png);
+	--alch8front: url(cards/8.png);
+}
 
   
   .card {
@@ -78,6 +81,19 @@
 	--color2: var(--alch1b);
 	--front: var(--alch6front);
   }
+
+  .card.alch7 {
+	--color1: var(--alch1a);
+	--color2: var(--alch1b);
+	--front: var(--alch7front);
+  }
+  
+  .card.alch8 {
+	--color1: var(--alch1a);
+	--color2: var(--alch1b);
+	--front: var(--alch8front);
+  }
+
 
 
   
