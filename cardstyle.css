@@ -12,6 +12,8 @@
   --alch6front: url(cards/6.png);
   --alch7front: url(cards/7.png);
   --alch8front: url(cards/8.png);
+  --alch9front: url(cards/9.png);
+
 }
 
 .card {
@@ -97,6 +99,13 @@
   --color2: var(--alch1b);
   --front: var(--alch8front);
 }
+
+.card.alch9 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch9front);
+}
+
 
 /* .card.kangchenjunga {
 	--color1: #daec9b;
