@@ -13,6 +13,10 @@
   --alch7front: url(cards/7.png);
   --alch8front: url(cards/8.png);
   --alch9front: url(cards/9.png);
+  --alch10front: url(cards/10.png);
+  --alch11front: url(cards/11.png);
+  --alch12front: url(cards/12.png);
+
 
 }
 
@@ -105,6 +109,25 @@
   --color2: var(--alch1b);
   --front: var(--alch9front);
 }
+
+.card.alch10 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch10front);
+}
+
+.card.alch11 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch11front);
+}
+
+.card.alch12 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch12front);
+}
+
 
 
 /* .card.kangchenjunga {
