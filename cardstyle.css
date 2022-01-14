@@ -16,6 +16,14 @@
   --alch10front: url(cards/10.png);
   --alch11front: url(cards/11.png);
   --alch12front: url(cards/12.png);
+  --alch19front: url(cards/19.png);
+  --alch22front: url(cards/22.png);
+  --alch32front: url(cards/32.png);
+  --alch48front: url(cards/48.png);
+  --alch51front: url(cards/51.png);
+  --alch54front: url(cards/54.png);
+  --alch57front: url(cards/57.png);
+  --alch58front: url(cards/58.png);
 
 
 }
@@ -128,6 +136,46 @@
   --front: var(--alch12front);
 }
 
+.card.alch19 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch19front);
+}
+.card.alch22 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch22front);
+}
+.card.alch32 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch32front);
+}
+.card.alch48 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch48front);
+}
+.card.alch51 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch51front);
+}
+.card.alch54 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch54front);
+}
+.card.alch57 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch57front);
+}
+.card.alch58 {
+  --color1: var(--alch1a);
+  --color2: var(--alch1b);
+  --front: var(--alch58front);
+}
 
 
 /* .card.kangchenjunga {
